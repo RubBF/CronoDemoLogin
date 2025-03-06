@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-03-06T17:54:30.643Z",
+  "totalUsers": 23,
+  "successfulLogins": 21,
+  "failedLogins": 2,
+  "responseTimes": [
+    2504,
+    1291,
+    4114,
+    2880,
+    3629,
+    2883,
+    4121,
+    2603,
+    1503,
+    2523,
+    2851,
+    4126,
+    4181,
+    4336,
+    2674,
+    2909,
+    2099,
+    3236,
+    3461,
+    3779,
+    2437
+  ],
+  "avgResponseTime": null,
+  "results": [
+    {
+      "username": "csegovia",
+      "status": "SUCCESS",
+      "responseTime": 2504
+    },
+    {
+      "username": "aizaga",
+      "status": "SUCCESS",
+      "responseTime": 1291
+    },
+    {
+      "username": "cmora",
+      "status": "SUCCESS",
+      "responseTime": 4114
+    },
+    {
+      "username": "mquiroz",
+      "status": "SUCCESS",
+      "responseTime": 2880
+    },
+    {
+      "username": "cortiz",
+      "status": "SUCCESS",
+      "responseTime": 3629
+    },
+    {
+      "username": "rbriceno",
+      "status": "SUCCESS",
+      "responseTime": 2883
+    },
+    {
+      "username": "gpena",
+      "status": "SUCCESS",
+      "responseTime": 4121
+    },
+    {
+      "username": "varos",
+      "status": "SUCCESS",
+      "responseTime": 2603
+    },
+    {
+      "username": "dpalominos",
+      "status": "SUCCESS",
+      "responseTime": 1503
+    },
+    {
+      "username": "alillo",
+      "status": "SUCCESS",
+      "responseTime": 2523
+    },
+    {
+      "username": "crojas",
+      "status": "SUCCESS",
+      "responseTime": 2851
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 4126
+    },
+    {
+      "username": "ERROR",
+      "status": "FAILED",
+      "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('h2:has-text(\"SANTIAGO - Versión:\")') to be visible\u001b[22m\n",
+      "screenshot": "./public/reports/error_ERROR_13.png"
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 4181
+    },
+    {
+      "username": "ERROR",
+      "status": "FAILED",
+      "error": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('h2:has-text(\"SANTIAGO - Versión:\")') to be visible\u001b[22m\n",
+      "screenshot": "./public/reports/error_ERROR_15.png"
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 4336
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 2674
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 2909
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 2099
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 3236
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 3461
+    },
+    {
+      "username": "becerra",
+      "status": "SUCCESS",
+      "responseTime": 3779
+    },
+    {
+      "username": "cpennacchiotti",
+      "status": "SUCCESS",
+      "responseTime": 2437
+    }
+  ]
+}

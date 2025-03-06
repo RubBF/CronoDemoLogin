@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 280px;
+  min-height: 100vh;
+}
+
+main {
+  background-color: #f8f9fa;
+}
+
+#reportFrame {
+  width: 100%;
+  height: calc(100vh - 30px);
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.info p {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RPACronos Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="d-flex">
+    <nav class="sidebar bg-dark text-white p-4">
+      <h4>🚀 RPACronos</h4>
+      <hr>
+      <button id="btnRunTests" class="btn btn-success w-100 mb-3">▶️ Ejecutar Pruebas</button>
+      <!-- Añade esto debajo del botón ejecutar -->
+      <input type="number" id="connectionsNumber" class="form-control mb-3" placeholder="Cantidad de conexiones"
+        value="10" min="1">
+
+
+      <div class="info">
+        <p><strong>Última ejecución:</strong></p>
+        <p id="lastExecution">No ejecutado aún</p>
+
+        <p><strong>Resultados:</strong></p>
+        <div class="progress mb-2">
+          <div id="successBar" class="progress-bar bg-success" style="width:0%">0%</div>
+          <div id="failBar" class="progress-bar bg-danger" style="width:0%">0%</div>
+        </div>
+      </div>
+
+      <a href="/allure-report/index.html" target="_blank" class="btn btn-secondary w-100 mt-3">
+        📊 Ver Reporte Detallado
+      </a>
+    </nav>
+
+    <main class="flex-grow-1 p-3">
+      <iframe id="reportFrame" src="/allure-report/index.html"></iframe>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
