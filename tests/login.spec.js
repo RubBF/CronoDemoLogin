@@ -5,7 +5,7 @@ require('dotenv').config();
 const conexiones = parseInt(process.env.CONNECTIONS || usuarios.length);
 const usuariosConcurrentes = [];
 
-for (let i = 0; i < conexiones; i++) {
+for(let i = 0; i < conexiones; i++){
   usuariosConcurrentes.push(usuarios[i % usuarios.length]);
 }
 
